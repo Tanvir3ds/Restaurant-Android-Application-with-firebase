@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="#9999fF"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".UserLogin">
+
+
+<EditText
+    android:id="@+id/SignInEmailEditTextUser_ID"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:textColor="@color/black"
+    android:hint="Enter Your Email"
+    android:layout_marginTop="300dp"
+    android:drawableLeft="@drawable/user24"
+    android:paddingLeft="10dp"
+    android:drawablePadding="10dp"
+    android:background="@drawable/edit_text_round"
+    android:layout_centerHorizontal="true"
+    />
+<EditText
+    android:id="@+id/SignInPasswordEditTextUser_ID"
+    android:drawableLeft="@drawable/lock24"
+    android:paddingLeft="10dp"
+    android:drawablePadding="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:background="@drawable/edit_text_round"
+    android:hint="Enter Your Password"
+    android:layout_marginTop="370dp"
+    android:inputType="textPassword"
+
+    />
+<Button
+    android:id="@+id/SignInButton_ID"
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+    android:layout_centerHorizontal="true"
+    android:text="Login"
+    android:textStyle="bold"
+    android:layout_marginTop="450dp"
+
+    android:background="@drawable/edit_text_round"
+    />
+<ProgressBar
+    android:id="@+id/SignUpProgressBer_Id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="400dp"
+    android:visibility="gone"
+    />
+
+<TextView
+    android:layout_marginTop="45dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="Login"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:textSize="40dp" />
+
+<TextView
+    android:id="@+id/SignUpButtonUserID"
+    android:layout_marginTop="550dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="Not a member? Sign up now"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:textAllCaps="false"
+    android:textSize="13dp" />
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/man"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="133dp"
+    />
+
+
+</RelativeLayout>
